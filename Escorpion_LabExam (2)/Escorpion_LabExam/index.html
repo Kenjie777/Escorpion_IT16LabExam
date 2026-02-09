@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Identity Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Student Identity Cipher</h1>
+
+    <div class="box">
+        <input id="name" type="text" placeholder="Full Name">
+        <input id="year" type="number" placeholder="Year Level">
+        <input id="course" type="text" placeholder="Course">
+        <input id="key" type="number" placeholder="Key (1–25)">
+
+        <div class="buttons">
+            <button onclick="encrypt()">Encrypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+
+        <p id="msg"></p>
+
+        <h3>Text</h3>
+        <div id="text"></div>
+
+        <h3>Output</h3>
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
